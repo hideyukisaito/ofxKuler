@@ -1,4 +1,3 @@
-
 ofxKuler
 
 Description:
@@ -25,11 +24,12 @@ Usage:
 	Set API Key
 	kuler.setAPIKey( "[your_api_key]" );
 
-	call one of the methods you want to, let sey you want to add 10 popular themes
+	call one of the methods you want to,
+	let sey you want to add 10 popular themes
 	kuler.addListingPopulars( 10 );
 
-	Currently kuler class does not offer an event mechanism (soon i plan to add) but you welcome
-	to check getThemes() method.
+	Currently kuler class does not offer an event mechanism (soon i plan to add)
+	but you welcome to check getThemes() method.
 
 	A quick note about kuler class; you can call service methods at any time,
 	if loader busy it will adds your requests into list to be processed later on.
