@@ -3,18 +3,19 @@ ofxKuler
 Description:
 
 	An OpenFrameworks addon to load/use Kuler color themes.
-	You will need to optain API Key to use this service. Please check out http://bit.ly/depJh0 for more details. 
+	All color theme requests are implemented. 
 	
 	Currently only HSV and RGB color modes are supported.
 	Currently only theme loading related service methods are implemented.
+
+	You will need to obtain API Key to use this service.
+	Please check http://bit.ly/depJh0 for more details. 
 
 Setup:
 
 	- Clone this add-on into [your_openframeworks_path]/addons/ofxKuler
 	- Add files in src/ to your project
 	- Add ofxXmlSettings addon from [your_openframeworks_path]/addons/ to your project
-
-	Viola!
 	
 Usage:
 
@@ -33,3 +34,5 @@ Usage:
 
 	A quick note about kuler class; you can call service methods at any time,
 	if loader busy it will adds your requests into list to be processed later on.
+
+	Viola!
