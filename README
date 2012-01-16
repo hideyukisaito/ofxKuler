@@ -30,10 +30,14 @@ Usage:
 	let sey you want to add 10 popular themes
 	kuler.addListingPopulars( 10 );
 
+	Fetch loaded themes vector via getThemes()
+
+	Viola!
+
+Note:
+	
 	Currently kuler class does not offer an event mechanism (soon i plan to add)
 	but you are welcome to check getThemes() in your update loop.
 
-	A quick note about kuler class; you can call service methods at any time,
-	if loader busy it will adds new requests into list to be processed by LIFO.
-
-	Viola!
+	You can call service methods at any time, if loader busy, kuler class will add new
+	requests into LIFO list to be processed later.
