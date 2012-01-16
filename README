@@ -15,7 +15,8 @@ Setup:
 
 	- Clone this add-on into [your_openframeworks_path]/addons/ofxKuler
 	- Add files in src/ to your project
-	- Add ofxXmlSettings addon from [your_openframeworks_path]/addons/ to your project
+	- Add ofxXmlSettings addon from
+	[your_openframeworks_path]/addons/ to your project
 	
 Usage:
 
