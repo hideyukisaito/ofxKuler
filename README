@@ -40,5 +40,5 @@ Note:
 	but you are welcome to check getThemes() in your update loop.
 
 	You can call service methods at any time, if loader is busy,
-	kuler class will add new requests into LIFO list to be
+	kuler class will add new requests into LIFO list (vector) to be
 	processed later.
