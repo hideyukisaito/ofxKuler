@@ -39,5 +39,6 @@ Note:
 	Currently kuler class does not offer an event mechanism (soon i plan to add)
 	but you are welcome to check getThemes() in your update loop.
 
-	You can call service methods at any time, if loader busy, kuler class will add new
-	requests into LIFO list to be processed later.
+	You can call service methods at any time, if loader busy,
+	kuler class will add new requests into LIFO list to be
+	processed later.
