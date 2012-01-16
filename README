@@ -31,9 +31,9 @@ Usage:
 	kuler.addListingPopulars( 10 );
 
 	Currently kuler class does not offer an event mechanism (soon i plan to add)
-	but you welcome to check getThemes() method.
+	but you are welcome to check getThemes() in your update loop.
 
 	A quick note about kuler class; you can call service methods at any time,
-	if loader busy it will adds your requests into list to be processed later on.
+	if loader busy it will adds new requests into list to be processed by LIFO.
 
 	Viola!
