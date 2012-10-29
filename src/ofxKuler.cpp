@@ -163,7 +163,7 @@ void ofxKuler::startNewLoadWithURL( string url )
 {
 	if ( currentLoader.getStatus() != ofxKulerLoader::LOAD_STARTED )
 	{				
-        ofAddListener( ofEvents.update, this, &ofxKuler::handleOfUpdateEvent );
+        ofAddListener( ofEvents().update, this, &ofxKuler::handleOfUpdateEvent );
         
 		currentLoader.loadFromURL( url );	
 		checkLoaderStatus();
@@ -213,7 +213,7 @@ void ofxKuler::checkLoaderStatus()
     if( currentLoader.getStatus() != ofxKulerLoader::LOAD_STARTED )
     {
         currentLoader.clearLoadedThemes();
-        ofRemoveListener( ofEvents.update, this, &ofxKuler::handleOfUpdateEvent );
+        ofRemoveListener( ofEvents().update, this, &ofxKuler::handleOfUpdateEvent );
         
         loadNextRequestOnQueue();
     }
